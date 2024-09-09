@@ -14,11 +14,12 @@
 	"vueIndentScriptAndStyle": true,
 	"requirePragma": false,
 	"insertPragma": false,
-	"plugins": ["prettier-plugin-svelte"],
+	"plugins": ["prettier-plugin-svelte", "prettier-plugin-tailwindcss"],
 	"svelteStrictMode": true,
 	"svelteBracketNewLine": true,
 	"svelteAllowShorthand": false,
 	"pluginSearchDirs": ["."],
 	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
-	"svelteSortOrder": "scripts-styles-markup"
+	"svelteSortOrder": "styles-options-scripts-markup",
+	"svelteIndentScriptAndStyle": false
 }

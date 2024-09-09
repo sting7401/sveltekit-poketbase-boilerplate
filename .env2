@@ -1,0 +1,4 @@
+DB_USER=Viswas
+DB_PASSWORD=Password
+
+PUBLIC_BASE_URL = exmple.com
