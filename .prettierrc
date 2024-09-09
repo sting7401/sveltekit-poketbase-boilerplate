@@ -20,6 +20,6 @@
 	"svelteAllowShorthand": false,
 	"pluginSearchDirs": ["."],
 	"overrides": [{ "files": "*.svelte", "options": { "parser": "svelte" } }],
-	"svelteSortOrder": "styles-options-scripts-markup",
+	"svelteSortOrder": "scripts-styles-options-markup",
 	"svelteIndentScriptAndStyle": false
 }
